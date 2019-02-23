@@ -5,7 +5,6 @@ DEVICE_PATH := device/xiaomi/leo
 # Platform
 TARGET_BOARD_PLATFORM := msm8994
 TARGET_BOOTLOADER_BOARD_NAME := msm8994
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno430
 
 # Arch
 TARGET_CPU_VARIANT := cortex-a53
