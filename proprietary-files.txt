@@ -475,10 +475,8 @@ vendor/lib/hw/keystore.msm8994.so
 vendor/lib64/hw/keystore.msm8994.so
 
 # Sensors
-lib/hw/activity_recognition.msm8994.so:vendor/lib/hw/activity_recognition.msm8994.so
 lib/hw/sensors.leo.so:vendor/lib/libsensors.leo.so
 lib/libinvensense_hal.so:vendor/lib/libinvensense_hal.so
-lib64/hw/activity_recognition.msm8994.so:vendor/lib64/hw/activity_recognition.msm8994.so
 lib64/hw/sensors.leo.so:vendor/lib64/libsensors.leo.so
 lib64/libinvensense_hal.so:vendor/lib64/libinvensense_hal.so
 vendor/lib/libsensor1.so
