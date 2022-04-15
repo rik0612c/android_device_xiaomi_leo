@@ -5,6 +5,9 @@ audio.offload.passthrough=false
 audio.offload.pcm.24bit.enable=true
 audio.offload.min.duration.secs=15
 
+# Bluetooth
+bluetooth.device.default_name=Xiaomi Mi Note Pro
+
 # Dalvik heap
 dalvik.vm.heapstartsize=8m
 dalvik.vm.heapgrowthlimit=288m
