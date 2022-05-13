@@ -33,6 +33,15 @@ on early-init
     symlink /data/tombstones /tombstones
     mkdir /dsp 0771 media media
 
+on init
+    # add a cpuset for the camera daemon
+    # we want all the little cores for camera
+    mkdir /dev/cpuset/camera-daemon
+    chown system system /dev/cpuset/camera-daemon
+    chown system system /dev/cpuset/camera-daemon/tasks
+    chmod 0664 /dev/cpuset/camera-daemon/tasks
+    write /dev/cpuset/camera-daemon/cpus 0-3
+
 on fs
     wait /dev/block/platform/soc.0/f9824900.sdhci/mmcblk0
     symlink /dev/block/platform/soc.0/f9824900.sdhci /dev/block/bootdevice
@@ -94,7 +103,7 @@ service qcamerasvr /vendor/bin/mm-qcamera-daemon
     class late_start
     user camera
     group camera system inet input graphics
-    writepid /dev/cpuset/system-background/tasks
+    writepid /dev/cpuset/camera-daemon/tasks
 
 service qseecomd /vendor/bin/qseecomd
     class core
