@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_leo.mk
+    $(LOCAL_DIR)/nad_leo.mk
     
 COMMON_LUNCH_CHOICES := \
-    lineage_leo-user \
-    lineage_leo-userdebug \
-    lineage_leo-eng
+    nad_leo-user \
+    nad_leo-userdebug \
+    nad_leo-eng

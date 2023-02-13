@@ -13,9 +13,6 @@ TARGET_CPU_VARIANT := cortex-a53
 # Display
 TARGET_SCREEN_DENSITY := 560
 
-# HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
 # Kernel
 TARGET_KERNEL_CONFIG := leo_user_defconfig
 

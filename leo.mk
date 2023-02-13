@@ -39,9 +39,6 @@ PRODUCT_PACKAGES += \
 # Screen density
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
-# Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.leo
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
