@@ -6,6 +6,9 @@ DEVICE_PATH := device/xiaomi/leo
 TARGET_BOARD_PLATFORM := msm8994
 TARGET_BOOTLOADER_BOARD_NAME := msm8994
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Arch
 TARGET_CPU_VARIANT := cortex-a53
 

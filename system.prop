@@ -1,0 +1,26 @@
+# Audio
+audio.offload.disable=0
+audio.offload.pcm.16bit.enable=true
+audio.offload.passthrough=false
+audio.offload.pcm.24bit.enable=true
+audio.offload.min.duration.secs=15
+
+# Dalvik heap
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heapgrowthlimit=288m
+dalvik.vm.heapsize=768m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=2m
+dalvik.vm.heapmaxfree=8m
+
+# Display
+ro.sys.display.support=55
+
+# FM transmitter
+ro.fm.transmitter=false
+
+# MSM8994
+persist.hwc.mdpcomp.maxpermixer=5
+
+# RIL
+ro.telephony.ril.config=simactivation
