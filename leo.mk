@@ -43,6 +43,12 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.leo
 
+# SELinux
+BOARD_SEPOLICY_M4DEFS += \
+    hal_perf_default=vendor_hal_perf_default \
+    hal_perf_hwservice=vendor_hal_perf_hwservice \
+    hal_perf_default_exec=vendor_hal_perf_default_exec
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
