@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_leo.mk
+    $(LOCAL_DIR)/aosp_leo.mk
     
 COMMON_LUNCH_CHOICES := \
-    dot_leo-user \
-    dot_leo-userdebug \
-    dot_leo-eng
+    aosp_leo-user \
+    aosp_leo-userdebug \
+    aosp_leo-eng
